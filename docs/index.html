@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b1e">
+  <title>AFTER HOURS — Idol Group Management Game</title>
+  <meta name="description" content="Manage a fictional idol group through a backstage rumor. Play in your browser or download the Windows demo and connect your own AI provider.">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a class="wordmark" href="#top">AFTER HOURS</a>
+    <a class="nav-link" href="#brain">Windows &amp; AI setup</a>
+  </nav>
+  <main>
+    <section id="top" class="hero">
+      <div class="hero-copy">
+        <h1>AFTER <em>HOURS</em></h1>
+        <p class="hook">It’s your first night as their manager. A photo is already spreading.</p>
+        <p class="lede">In this idol management game, one of your members is photographed leaving a private meeting. Fans are filling in the blanks. Do you call the member first or put out a statement?</p>
+        <div class="actions">
+          <a class="button primary" href="play/">Play the browser demo</a>
+          <a class="button ghost" href="#brain">Download for Windows</a>
+        </div>
+        <p class="hero-note">Play in your browser without an account or API key.</p>
+      </div>
+      <img class="hero-image" src="play/assets/after-hours-key-art.png" width="1254" height="1254" alt="Three idols wait backstage as a leaked photo spreads across a phone screen">
+    </section>
+
+    <section class="loop" aria-labelledby="loop-title">
+      <div class="section-copy">
+        <p class="kicker">Browser demo</p>
+        <h2 id="loop-title">The rumor breaks tonight.</h2>
+        <p>Start with a new fictional group. Play through the first rumor and see how it changes the next day.</p>
+        <ol>
+          <li><strong>Check the facts.</strong> The photo is real. What it means is still a rumor.</li>
+          <li><strong>Write your response.</strong> Try “Keep this private and talk to them first.” Review the draft and confirm it.</li>
+          <li><strong>Advance to Day 2.</strong> See how the group’s trust and public attention change, and what lands on your desk next.</li>
+        </ol>
+        <a class="button primary" href="play/">Play in browser</a>
+      </div>
+      <figure class="demo-shot">
+        <img src="screenshots/browser-day-2.png" width="390" height="844" loading="lazy" alt="A new event appears on Day 2 after the manager’s first response">
+        <figcaption>On Day 2, fans have started a project the group never asked for.</figcaption>
+      </figure>
+    </section>
+
+    <section id="brain" class="brain" aria-labelledby="ai-title">
+      <div class="section-copy">
+        <p class="kicker">Windows demo</p>
+        <h2 id="ai-title">What would you say to Jian?</h2>
+        <p>Jian has a solo offer and asks you to keep it between you. Play NOVA’s story in the Windows demo. Bring your own API key for Gemini, MiniMax, OpenAI, or another compatible provider to reply in your own words and see what Jian remembers later.</p>
+        <a class="button primary" href="AFTER-HOURS-windows.zip" download>Download for Windows</a>
+        <ol>
+          <li>Install <a href="https://nodejs.org/en/download">Node.js 22 or newer</a> and extract the ZIP.</li>
+          <li>Double-click <strong>Set-up-AI.cmd</strong>. Choose a provider in <code>AI_CHAT_PROVIDER</code>, paste its API key in the matching field, and save.</li>
+          <li>Double-click <strong>Play.cmd</strong>. Open the fixed NOVA sample and read Jian’s message. Look for <strong>Live AI</strong> above the chat.</li>
+        </ol>
+        <p class="setup-note">You can save multiple connections and use one for character chat and another for decision drafts. The README inside the ZIP explains how. Live AI uses your own account and billing and sends game context to the provider selected for that feature. Sample mode works without a key.</p>
+      </div>
+      <figure class="demo-shot">
+        <img src="screenshots/live-ai-chat.png" width="860" height="1860" loading="lazy" alt="Jian in Live AI mode, replying that he remembers your favorite drink">
+        <figcaption>Jian remembers a detail from an earlier message.</figcaption>
+      </figure>
+    </section>
+
+  </main>
+  <footer>AFTER HOURS · Playable demo</footer>
+</body>
+</html>
