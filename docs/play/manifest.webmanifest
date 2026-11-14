@@ -1,0 +1,20 @@
+{
+  "name": "AFTER HOURS — Event Desk",
+  "short_name": "AFTER HOURS",
+  "description": "A mobile-first emergent idol management simulation.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf7f5",
+  "theme_color": "#faf7f5",
+  "icons": [
+    {
+      "src": "assets/nova-studio-v7.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
