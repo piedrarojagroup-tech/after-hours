@@ -4,7 +4,7 @@
 
 Call the member first, stay quiet, or go public. Write your own response and see how the group and its fans react the next day.
 
-- **[Play free in your browser](https://piedrarojagroup-tech.github.io/after-hours/play/)**. No download, account, or API key needed.
+- **[Play free in your browser](https://piedrarojagroup-tech.github.io/after-hours/play/)**. No download, account, or API key needed. On the welcome screen, choose **Open the fixed NOVA sample** for the NOVA community, artist feed, and private messages.
 - **[Download the Windows demo](https://piedrarojagroup-tech.github.io/after-hours/AFTER-HOURS-windows.zip)**. Play the NOVA sample as-is, or [set up your own AI model](docs/README.md#download-for-windows-and-connect-your-ai) for live chat.
 
 <img src="docs/play/assets/after-hours-key-art.png" width="560" alt="Three idols backstage as a leaked photo spreads on a phone">
