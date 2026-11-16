@@ -1,5 +1,5 @@
 # AFTER HOURS Core
-[Play the browser demo](https://piedrarojagroup-tech.github.io/after-hours/play/) | [Windows demo](https://piedrarojagroup-tech.github.io/after-hours/AFTER-HOURS-windows.zip)
+[Play Demo](https://piedrarojagroup-tech.github.io/after-hours/play/) | [Windows demo](https://piedrarojagroup-tech.github.io/after-hours/AFTER-HOURS-windows.zip)
 
 ![AFTER HOURS key art](docs/play/assets/after-hours-key-art.png)
 
