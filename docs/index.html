@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#080b1e">
   <title>AFTER HOURS — Idol Group Management Game</title>
-  <meta name="description" content="Manage a fictional idol group through a backstage rumor. Play in your browser or download the Windows demo and connect your own AI provider.">
+  <meta name="description" content="Take over NOVA for their first night. Play the same idol management demo in your browser or on Windows.">
   <link rel="stylesheet" href="site.css">
 </head>
 <body>
@@ -17,32 +17,32 @@
     <section id="top" class="hero">
       <div class="hero-copy">
         <h1>AFTER <em>HOURS</em></h1>
-        <p class="hook">It’s your first night as their manager. A photo is already spreading.</p>
-        <p class="lede">In this idol management game, one of your members is photographed leaving a private meeting. Fans are filling in the blanks. Do you call the member first or put out a statement?</p>
+        <p class="hook">It’s your first night as NOVA’s manager.</p>
+        <p class="lede">Jian has a solo offer. Ren wants a voice in the music. Min needs rehearsal to end on time. Hear them out, then decide what tomorrow looks like.</p>
         <div class="actions">
-          <a class="button primary" href="play/">Play the browser demo</a>
+          <a class="button primary" href="play/">Play Demo</a>
           <a class="button ghost" href="#brain">Download for Windows</a>
         </div>
         <p class="hero-note">Play in your browser without an account or API key.</p>
       </div>
-      <img class="hero-image" src="play/assets/after-hours-key-art.png" width="1254" height="1254" alt="Three idols wait backstage as a leaked photo spreads across a phone screen">
+      <img class="hero-image" src="play/assets/nova-editorial.png" alt="NOVA members Jian, Ren and Min">
     </section>
 
     <section class="loop" aria-labelledby="loop-title">
       <div class="section-copy">
         <p class="kicker">Browser demo</p>
-        <h2 id="loop-title">The rumor breaks tonight.</h2>
-        <p>Start with a new fictional group. Play through the first rumor and see how it changes the next day.</p>
+        <h2 id="loop-title">NOVA’s first night</h2>
+        <p>Explore NOVA’s Community, Artist posts and Messages. What you say to each member shapes the rehearsal plan.</p>
         <ol>
-          <li><strong>Check the facts.</strong> The photo is real. What it means is still a rumor.</li>
-          <li><strong>Write your response.</strong> Try “Keep this private and talk to them first.” Review the draft and confirm it.</li>
-          <li><strong>Advance to Day 2.</strong> See how the group’s trust and public attention change, and what lands on your desk next.</li>
+          <li>Read Jian’s private message and reply in your own words.</li>
+          <li>Hear what Ren and Min need before you book rehearsal.</li>
+          <li>See the group’s progress in Manage. Advance a week to see the public response, then keep playing in the same save.</li>
         </ol>
         <a class="button primary" href="play/">Play in browser</a>
       </div>
       <figure class="demo-shot">
-        <img src="screenshots/browser-day-2.png" width="390" height="844" loading="lazy" alt="A new event appears on Day 2 after the manager’s first response">
-        <figcaption>On Day 2, fans have started a project the group never asked for.</figcaption>
+        <img src="screenshots/nova-community.png" width="860" height="1860" loading="lazy" alt="NOVA’s Community with the group photo and the Highlight, Fan, Artist and Media tabs">
+        <figcaption>NOVA’s Community in the game.</figcaption>
       </figure>
     </section>
 
@@ -55,9 +55,9 @@
         <ol>
           <li>Install <a href="https://nodejs.org/en/download">Node.js 22 or newer</a> and extract the ZIP.</li>
           <li>Double-click <strong>Set-up-AI.cmd</strong>. Choose a provider in <code>AI_CHAT_PROVIDER</code>, paste its API key in the matching field, and save.</li>
-          <li>Double-click <strong>Play.cmd</strong>. Open the fixed NOVA sample and read Jian’s message. Look for <strong>Live AI</strong> above the chat.</li>
+          <li>Double-click <strong>Play.cmd</strong>. Open NOVA and read Jian’s message. Look for <strong>Live AI</strong> above the chat.</li>
         </ol>
-        <p class="setup-note">You can save multiple connections and use one for character chat and another for decision drafts. The README inside the ZIP explains how. Live AI uses your own account and billing and sends game context to the provider selected for that feature. Sample mode works without a key.</p>
+        <p class="setup-note">Live AI uses your own account and billing and sends conversation context to your chosen provider. Sample dialogue works without a key.</p>
       </div>
       <figure class="demo-shot">
         <img src="screenshots/live-ai-chat.png" width="860" height="1860" loading="lazy" alt="Jian in Live AI mode, replying that he remembers your favorite drink">
